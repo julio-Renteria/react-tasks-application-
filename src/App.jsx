@@ -7,7 +7,7 @@ import { tasks } from "./data/tasks";
 
 function App() {
   return (
-    <main className="bg-zinc-900 h-screen">
+    <main className="bg-zinc-900  ">
       {/* <h1>La cantidad maxima de tareas es: {tasks.length}</h1> */}
 
       <div className="container mx-auto p-10">

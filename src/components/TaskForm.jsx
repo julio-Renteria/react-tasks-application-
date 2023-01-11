@@ -18,10 +18,10 @@ function TaskForm() {
   };
 
   return (
-    <dir className=" max-w-md mx-auto">
+    <div className=" max-w-md mx-auto ">
       <form
         onSubmit={handleSubmit}
-        className="bg-slate-800 p-10 mb-4 rounded-lg"
+        className="bg-slate-800 p-10 mb-4 rounded-lg   animate-pulse"
       >
         <h1 className="text-2xl font-bold text-white mb-3">Crea tu tarea</h1>
         <input
@@ -42,7 +42,7 @@ function TaskForm() {
           Guardar
         </button>
       </form>
-    </dir>
+    </div>
   );
 }
 

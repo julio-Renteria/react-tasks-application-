@@ -4,7 +4,7 @@ import { TaskContext } from "../context/TaskContext";
 function TaskCard({ task }) {
   const { deleteTask } = useContext(TaskContext);
   return (
-    <div className="bg-gray-800 text-white p-4 rounded-md">
+    <div className=" hover:animate-bounce bg-gray-800 text-white p-4 rounded-md animate-none">
       <h1 className="text-xl font-bold capitalize">{task.title}</h1>
       <p className="text-gray-500 text-sm">{task.description}</p>
 
