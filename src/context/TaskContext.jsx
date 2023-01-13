@@ -12,12 +12,12 @@ export function TaskContextProvider(props) {
 
   function createTask(task) {
     setTasks([
-      ...tasks,
-      {
-        title: task.title,
-        id: task.lenght,
-        description: task.description,
-      },
+      ...tasks,task
+      // {
+      //   title: task.title,
+      //   id: task.id,
+      //   description: task.description,
+      // },
     ]);
   }
 
