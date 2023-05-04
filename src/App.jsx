@@ -12,7 +12,10 @@ function App() {
 
       <div className="container mx-auto p-10">
         <Contador />
+        <Contador />
         <TaskForm />
+
+      
         <TaskList />
       </div>
     </main>

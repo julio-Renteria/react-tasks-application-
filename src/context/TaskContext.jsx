@@ -10,9 +10,22 @@ export function TaskContextProvider(props) {
   //.
   const [tasks, setTasks] = useState(data);
 
+  
+  // const handleChange = (event) => {
+    //   console.log("first");
+  //   const [datos, setDatos] = useState(true); //check
+  // };
+  //
+  // const handleChange = (event) => {
+  //   console.log("event.target.value");
+    //chec
+  // };
+
+  //
   function createTask(task) {
     setTasks([
-      ...tasks,task
+      ...tasks,
+      task,
       // {
       //   title: task.title,
       //   id: task.id,
@@ -23,6 +36,7 @@ export function TaskContextProvider(props) {
 
   function deleteTask(taskId) {
     setTasks(tasks.filter((task) => task.id !== taskId));
+    //
   }
 
   // useEffect(() => {
